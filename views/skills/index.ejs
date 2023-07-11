@@ -9,7 +9,9 @@
     <h1>Dev Skills</h1>
     <ul>
         <% skills.forEach(function(skill) { %>
-            <li><%= skill.name %>: <%= skill.experience %></li>
+            <li>
+                <a href="/skills/<%= skill.id %>"><%= skill.name %></a>
+            </li>
         <% }) %>
     </ul>
 </body>
