@@ -1,7 +1,8 @@
 <%- include('../partials/header') %>
     <h3>Skill name: <%= skill.name %></h3>
     <h3>Experience level: <%= skill.experience %></h3>
+    <a href = "/skills/<%= skill.id %>/edit">Edit Skill</a>
     <form action="/skills/<%= skill.id %>?_method=DELETE" class="delete-form" method="POST">
-        <button type="submit">Delete Skill</button>
+        <button type="submit" id="delete-button">Delete Skill</button>
     </form>
 <%- include('../partials/footer') %>

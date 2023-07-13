@@ -14,3 +14,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+input[type="text"],
+button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#delete-button {
+  background-color: #ff0000;
+}
